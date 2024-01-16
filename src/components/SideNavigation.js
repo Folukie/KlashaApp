@@ -14,7 +14,7 @@ const SideNavigation = ({ hidePanel, setHidePanel }) => {
     <nav
       className={`${
         !hidePanel ? 'w-64' : 'w-28'
-      } hidden relative md:fixed bg-primary z-20 h-screen min-h-full overflow-x-hidden overflow-y-auto px-10 py-3`}
+      } hidden md:block relative md:fixed bg-primary z-20 h-screen min-h-full overflow-x-hidden overflow-y-auto px-10 py-3`}
     >
       <div>
         <img src="/images/klasha.svg" alt="close icon" className="w-16 h-16" />
