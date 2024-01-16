@@ -1,0 +1,24 @@
+<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="7" height="12" fill="#1E1E1E"/>
+<g id="5.1 Dashboard_populated - new" clip-path="url(#clip0_1_328)">
+<rect width="1440" height="900" transform="translate(-69 -826)" fill="white"/>
+<g id="side bar">
+<g id="side bar_2">
+<rect width="280" height="900" transform="translate(-69 -826)" fill="#FFFBF7"/>
+<g id="Button">
+<rect x="-20.5" y="-13.5" width="119" height="39" rx="7.5" stroke="#0A0A0A"/>
+<g id="Icon/None/chevron-left/S">
+<g id="i">
+<path id="Vector" d="M5.99921 10.9984L0.999207 5.99844L5.99921 0.998444" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_328">
+<rect width="1440" height="900" fill="white" transform="translate(-69 -826)"/>
+</clipPath>
+</defs>
+</svg>
