@@ -59,7 +59,7 @@ const SalesGraph = () => {
             />
           </AreaChart>
         </div>
-        <div className="bg-pink relative text-white p-6 rounded-md h-auto md:w-96 w-60">
+        <div className="bg-pink relative text-white p-6 rounded-md h-auto md:w-96 w-80 mx-auto">
           <img
             src="/images/lines.svg"
             className="absolute bottom-0 top-0 z-10"

@@ -11,9 +11,9 @@ import SalesGraph from '@/components/SalesGraph'
 export default function Home() {
   return (
     <DashboardLayout>
-      <div className="mt-20 ">
-        <p>Sales overview</p>
-        <div className="grid md:grid-cols-4 md:space-x-5 space-y-4 my-6 justify-center">
+      <div className="md:mt-20 mt-24 ">
+        <p className="font-medium">Sales overview</p>
+        <div className="grid md:grid-cols-4 md:gap-x-5 space-y-4 md:space-y-0 my-6  justify-center">
           {OverviewData.map((data) => (
             <OverviewCard
               key={data.id}
@@ -27,7 +27,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div className="flex space-x-5">
+      <div className="md:flex md:space-x-5 space-x-0">
         <SalesGraph />
       </div>
     </DashboardLayout>

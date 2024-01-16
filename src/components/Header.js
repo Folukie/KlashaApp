@@ -7,7 +7,7 @@ const Header = () => {
   const [isOpen, setOpen] = useState(false)
 
   return (
-    <header className=" fixed z-10 w-full bg-white border-b border-primary-light">
+    <header className=" fixed z-20 w-full bg-white border-b border-primary-light">
       <div className="flex md:absolute px-4 z-10 items-center md:justify-end w-full h-20 md:px-10 space-x-6 font-medium border-b border-primary-light">
         <div className="md:hidden flex items-center">
           <Hamburger
@@ -84,7 +84,15 @@ const Header = () => {
           </svg>
         </div>
       </div>
-      {isOpen && <MobileSideNav close={() => setOpen(false)} isOpen={isOpen} />}
+      {isOpen && (
+        <div className="w-full">
+          <MobileSideNav />
+        </div>
+      )}
+
+      {/* <div className="w-full ">
+        <MobileSideNav />
+      </div> */}
     </header>
   )
 }

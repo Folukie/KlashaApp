@@ -12,32 +12,12 @@ const MobileSideNav = ({ close, isOpen }) => {
   console.log(isOpen, close)
   return (
     <nav
-      className={`bg-primary sidebar p-4 max-w-full w-full z-50 fixed top-0 left-0 hidden sm:block transition-all duration-300 transform ${
+      className={`bg-primary sidebar p-4 w-full left-0 block transition-all duration-300 transform ${
         isOpen ? '-translate-x-full' : ''
       }`}
     >
-      <button onClick={close}>
-        <svg
-          width="19"
-          height="21"
-          viewBox="0 0 19 21"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M9.76893 10.4285L18.2044 19.791M1.3334 19.791L9.76893 10.4285L1.3334 19.791ZM18.2044 1.06604L9.76732 10.4285L18.2044 1.06604ZM9.76732 10.4285L1.3334 1.06604L9.76732 10.4285Z"
-            stroke="white"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      </button>
-      <div>
-        <img src="/images/klasha.svg" alt="close icon" className="w-16 h-16" />
-      </div>
       <div className="">
-        <div className="py-8 space-y-8">
+        <div className="py-3 px-4 space-y-6">
           <div className="space-y-2">
             <p className="text-sm">Main pages</p>
             <ul className="space-y-3">
